@@ -3,6 +3,7 @@ class Answer < ActiveRecord::Base
   has_many :answer_comments
   
   def total_points
-    return 0
+    ans=self.answer_votes
+    return ans
   end
 end
