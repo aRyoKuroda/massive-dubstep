@@ -3,7 +3,7 @@
 <table>
   <thead>
     <tr>
-      <th>Name</th>
+      <th>Title</th>
       <th>Id</th>
       <th>User</th>
       <th>Text</th>
@@ -14,7 +14,7 @@
   <tbody>
     <% @questions.each do |question| %>
       <tr>
-        <td><%= question.name %></td>
+        <td><%= question.title %></td>
         <td><%= question.id %></td>
         <td><%= question.user_id %></td>
         <td><%= question.text %></td>
