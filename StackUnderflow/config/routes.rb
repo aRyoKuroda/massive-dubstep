@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :question_comments
+
   resources :question_votes
 
   resources :questions
